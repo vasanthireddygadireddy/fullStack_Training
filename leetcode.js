@@ -8,7 +8,7 @@ const helloFn = createHelloWorld();
 console.log(helloFn()); 
 console.log(helloFn()); 
 
-//Counter
+//Counter details
 function createCounter(n) {
   return function() {
     return n++;
